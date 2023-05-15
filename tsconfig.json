@@ -1,6 +1,11 @@
 {
     "compilerOptions": {
         "target":"ES2022",
-        "watch": true
+        "watch": true,
+        "outDir": "dist",
+        "module": "CommonJS",
+        "removeComments":  true,
+        "types": ["node"],
+        "moduleResolution": "node"
     }
 }
